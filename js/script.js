@@ -1,24 +1,40 @@
 function calculateAge() {
-// FAQ
 
-document.querySelectorAll(".faq-question")
-.forEach(button => {
+let age =
+Number(document.getElementById("age").value);
 
-button.addEventListener("click", () => {
+let sleep =
+Number(document.getElementById("sleep").value);
 
-const answer =
-button.nextElementSibling;
+let exercise =
+Number(document.getElementById("exercise").value);
 
-if(answer.style.display === "block"){
-answer.style.display = "none";
+let stress =
+Number(document.getElementById("stress").value);
+
+let biologicalAge = age;
+
+if(sleep >= 7){
+biologicalAge -= 3;
 }
-else{
-answer.style.display = "block";
+
+if(exercise >= 4){
+biologicalAge -= 4;
 }
 
-});
+if(stress >= 8){
+biologicalAge += 5;
+}
 
-});
+document.getElementById("result")
+.innerHTML =
+
+`
+Chronologische leeftijd: ${age}<br>
+Geschatte biologische leeftijd: ${biologicalAge}
+`;
+
+}
 
 
 // TESTIMONIAL SLIDER
