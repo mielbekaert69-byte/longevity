@@ -325,3 +325,21 @@ border-top:1px solid rgba(255,255,255,.1);
 padding-top:30px;
 text-align:center;
 }
+.service,
+.card{
+
+transition:
+all .35s ease;
+
+}
+
+.service:hover,
+.card:hover{
+
+transform:
+translateY(-15px);
+
+box-shadow:
+0 25px 60px rgba(0,0,0,.1);
+
+}
