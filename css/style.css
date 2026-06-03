@@ -1,4 +1,33 @@
-:root{
+
+.cta-section{
+
+background:#101010;
+color:white;
+
+padding:140px 10%;
+
+text-align:center;
+
+}
+
+.cta-section h2{
+
+font-size:3.5rem;
+max-width:900px;
+margin:auto;
+margin-bottom:30px;
+
+}
+
+.cta-section p{
+
+max-width:700px;
+margin:auto;
+margin-bottom:40px;
+
+color:#ccc;
+
+}:root{
 --bg:#f8f6f3;
 --white:#ffffff;
 --dark:#0f0f10;
