@@ -237,3 +237,61 @@ font-size:2.8rem;
 }
 
 }
+/* TESTIMONIALS */
+
+.testimonial-slider{
+max-width:800px;
+margin:auto;
+margin-top:50px;
+}
+
+.testimonial{
+display:none;
+font-size:1.4rem;
+text-align:center;
+}
+
+.testimonial.active{
+display:block;
+}
+
+/* FAQ */
+
+.faq{
+margin-top:50px;
+}
+
+.faq-item{
+margin-bottom:20px;
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.faq-question{
+width:100%;
+padding:25px;
+border:none;
+background:white;
+cursor:pointer;
+text-align:left;
+font-size:1.1rem;
+font-weight:600;
+}
+
+.faq-answer{
+display:none;
+padding:0 25px 25px;
+line-height:1.8;
+color:#666;
+}
+
+/* FOOTER */
+
+footer{
+background:#0f0f10;
+color:white;
+padding:80px 10%;
+margin-top:100px;
+}
