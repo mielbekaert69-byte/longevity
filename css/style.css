@@ -295,3 +295,33 @@ color:white;
 padding:80px 10%;
 margin-top:100px;
 }
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:50px;
+margin-bottom:50px;
+}
+
+.footer-grid h3,
+.footer-grid h4{
+margin-bottom:20px;
+}
+
+.footer-grid ul{
+list-style:none;
+}
+
+.footer-grid li{
+margin-bottom:10px;
+}
+
+.footer-grid a{
+color:white;
+text-decoration:none;
+}
+
+.copyright{
+border-top:1px solid rgba(255,255,255,.1);
+padding-top:30px;
+text-align:center;
+}
